@@ -1,0 +1,29 @@
+.wrap .mebounce .tabs {
+    display: block;
+    clear: both;
+}
+.wrap .mebounce .tabs li a {
+    float: left;
+    background: #fff;
+    padding: 15px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+.wrap .mebounce .tabs li.ui-tabs-active a {
+    border-bottom: none;
+    padding: 16px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    z-index: 100;
+}
+.wrap .mebounce .mebounce-tab-cont {
+    width: 65%;
+    background: #fff;
+    padding: 20px;
+    float: left;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    z-index: 50;
+    margin-top: -0.5px;
+}
